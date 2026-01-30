@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://votre-domaine.fr/sitemap.xml
+Sitemap: https://plus-fort-sans-eux.page/sitemap.xml
