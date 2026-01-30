@@ -19,6 +19,6 @@ Ouvrez simplement le fichier `index.html` dans un navigateur.
 ## Déploiement (GitHub Pages ou hébergeur)
 - Le site est 100% statique et prêt à être publié.
 - Si vous utilisez GitHub Pages, le fichier .nojekyll est déjà présent.
+- Domaine GitHub Pages par défaut : https://ayoubo22.github.io/Plus-fort-sans-eux/
 - Pour un hébergeur classique (Apache/Netlify), les fichiers .htaccess et _headers ajoutent des en-têtes de sécurité.
-- Pensez à remplacer le domaine dans [sitemap.xml](sitemap.xml) et [robots.txt](robots.txt) (actuellement "https://votre-domaine.fr").
-- Mettez à jour [/.well-known/security.txt](.well-known/security.txt) avec l'URL officielle des mentions légales.
+- [sitemap.xml](sitemap.xml), [robots.txt](robots.txt) et [/.well-known/security.txt](.well-known/security.txt) sont alignés sur le domaine GitHub Pages.

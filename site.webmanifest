@@ -2,13 +2,13 @@
   "name": "Plus fort sans eux",
   "short_name": "Plus fort sans eux",
   "description": "Association à Savigny-sur-Orge pour soutenir les enfants dont les parents sont décédés d'un cancer.",
-  "start_url": "/index.html",
+  "start_url": "/Plus-fort-sans-eux/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/Plus-fort-sans-eux/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
