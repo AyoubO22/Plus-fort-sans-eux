@@ -18,7 +18,7 @@ Ouvrez simplement le fichier `index.html` dans un navigateur.
 
 ## Déploiement (GitHub Pages ou hébergeur)
 - Le site est 100% statique et prêt à être publié.
-- GitHub Pages : le fichier .nojekyll est déjà présent et le domaine est défini via [CNAME](CNAME).
-- Domaine configuré : https://plus-fort-sans-eux.page
+- Si vous utilisez GitHub Pages, le fichier .nojekyll est déjà présent.
 - Pour un hébergeur classique (Apache/Netlify), les fichiers .htaccess et _headers ajoutent des en-têtes de sécurité.
-- [sitemap.xml](sitemap.xml), [robots.txt](robots.txt) et [/.well-known/security.txt](.well-known/security.txt) sont déjà alignés sur le domaine.
+- Pensez à remplacer le domaine dans [sitemap.xml](sitemap.xml) et [robots.txt](robots.txt) (actuellement "https://votre-domaine.fr").
+- Mettez à jour [/.well-known/security.txt](.well-known/security.txt) avec l'URL officielle des mentions légales.
