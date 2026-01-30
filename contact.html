@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Plus fort sans eux</title>
+  <meta name="description" content="Contactez l'association Plus fort sans eux." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#fdf7fb" />
+  <meta name="color-scheme" content="light" />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">PF</span>
+        <span>Plus fort sans eux</span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false">Menu</button>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="association.html">Association</a>
+        <a href="actions.html">Actions</a>
+        <a href="temoignages.html">Témoignages</a>
+        <a href="don.html">Faire un don</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="button secondary" href="association.html">Découvrir</a>
+        <a class="button" href="don.html">Soutenir</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="page-hero">
+      <div class="container">
+        <span class="badge">Nous écrire</span>
+        <h1>Contactez l'association</h1>
+        <p>
+          Nous répondons aux familles, bénévoles et partenaires locaux. Utilisez ce formulaire pour
+          nous envoyer votre message. Ce formulaire est un prototype et sera connecté plus tard.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <h2>Formulaire de contact</h2>
+            <p>Les champs marqués d'un * sont obligatoires.</p>
+          </div>
+        </div>
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <div>
+              <label for="nom">Nom complet *</label>
+              <input id="nom" name="nom" type="text" required />
+            </div>
+            <div>
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="telephone">Téléphone</label>
+              <input id="telephone" name="telephone" type="tel" />
+            </div>
+            <div>
+              <label for="sujet">Sujet</label>
+              <select id="sujet" name="sujet">
+                <option value="famille">Je suis une famille</option>
+                <option value="benevole">Je veux devenir bénévole</option>
+                <option value="partenaire">Je veux devenir partenaire</option>
+                <option value="don">Informations sur les dons</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="button" type="submit">Envoyer</button>
+        </form>
+        <div class="notice">
+          Ce formulaire ne transmet pas encore les messages. Il sera connecté dès que vous aurez un
+          service d'email ou d'hébergement.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta">
+        <div class="section-title">
+          <div>
+            <h2>Coordonnées provisoires</h2>
+            <p>Les informations officielles seront ajoutées dès validation.</p>
+          </div>
+        </div>
+        <p>Email : contact@plusfortsanseux.fr (adresse à confirmer)</p>
+        <p>Téléphone : à venir</p>
+        <p>Adresse : Savigny-sur-Orge, Essonne (adresse précise à confirmer)</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Plus fort sans eux</h3>
+        <p>Association à Savigny-sur-Orge.</p>
+      </div>
+      <div>
+        <h4>Contact rapide</h4>
+        <p>Email : contact@plusfortsanseux.fr (adresse à confirmer)</p>
+        <p>Téléphone : à venir</p>
+      </div>
+      <div>
+        <h4>Horaires</h4>
+        <p>Sur rendez-vous. Nous adaptons nos disponibilités aux familles.</p>
+      </div>
+    </div>
+    <div class="container">
+      <small>© 2026 Plus fort sans eux. Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
